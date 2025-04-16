@@ -1,11 +1,13 @@
 import React from 'react'
 import Container from '../Custom/Container'
+import Image from 'next/image'
+import ScrollReveal from '../Custom/ScrollReveal'
+
 const Experience = () => {
     return (
-        <div id='experience' className='h-screen bg-blue-300'>
-            <Container>
-                <h1>This is experience content</h1>
-            </Container>
+        <div id='experience' className='h-screen scroll-mt-18 reveal'>
+            <ScrollReveal />
+
         </div>
     )
 }

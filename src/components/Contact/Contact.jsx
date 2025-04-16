@@ -1,27 +1,88 @@
 import React from 'react'
 import Container from '../Custom/Container'
+import Image from 'next/image'
+import ScrollReveal from '../Custom/ScrollReveal'
 
 const Contact = () => {
   return (
-    <div id='contact' >
+    <div id='contact' className='scroll-mt-18 reveal'>
+      <ScrollReveal />
       <Container>
-        <div className="subscribe flex justify-between items-center py-35">
-          <div className="w-280">
-            <p className="text-purple-600 mb-6 text-sm"><b>SUBSCRIBE</b></p>
-            <h1 className='text-5xl font-bold text-indigo-950'>Subscribe Me To Get More Latest Update Information From Me</h1>
+        <h1 className='text-center py-10 text-4xl text-amber-950'>CONTACTS</h1>
+        <div className="subscribe">
+          {/* contact */}
+          <div className='flex justify-center items-center'>
+            <table className='table-auto mx-auto text-sm/8'>
+              <tbody>
+                <tr>
+                  <td className=''>
+                    <Image className='me-3' src={"https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png"}
+                      alt='gmail' width={20} height={20}
+                    />
+                  </td>
+                  <td>dinhlt2701@gmail.com</td>
+                </tr>
+                <tr>
+                  <td className=''>
+                    <Image className='me-3' src={"https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png"}
+                      alt='phone' width={20} height={20}
+                    />
+                  </td>
+                  <td>+0941982794</td>
+                </tr>
+                <tr>
+                  <td>
+                    <Image className='me-3' src={"https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png"}
+                      alt='linkedin' width={20} height={20}
+                    />
+                  </td>
+                  <td>https://www.linkedin.com/in/dinh-le-60454427a/</td>
+                </tr>
+                <tr>
+                  <td className=''>
+                    <Image className='me-3' src={"https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png"}
+                      alt='Github' width={20} height={20}
+                    />
+                  </td>
+                  <td>https://www.facebook.com/messages/t/100039244096491</td>
+                </tr>
+                <tr>
+                  <td className=''>
+                    <Image className='me-3' src={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/220px-GitHub_Invertocat_Logo.svg.png"}
+                      alt='Github' width={20} height={20}
+                    />
+                  </td>
+                  <td>https://github.com/dinhle2701</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-          <div>
-            <p className='mb-8'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Fugit cumque quod odio velit hic.
-              Eveniet sunt alias voluptatum voluptatibus debitis?
-            </p>
-            <div className="form">
-              <form action="">
-                <input type="text" className=' w-70 p-2 bg-white' placeholder='Enter your email'/>
-                <button className="bg-blue-700 text-white px-4 py-2">Subcribe</button>
-              </form>
+          {/* subscribe */}
+          <div className=' flex justify-between items-center py-35'>
+            <div className="w-280">
+              <p className="text-blue-600 mb-6 text-sm"><b>SUBSCRIBE</b></p>
+              <h1 className='text-5xl font-bold text-indigo-950'>Subscribe Me To Get More Latest Update Information From Me</h1>
+            </div>
+
+            <div>
+              <p className='mb-8'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit cumque quod odio velit hic.
+                Eveniet sunt alias voluptatum voluptatibus debitis?
+              </p>
+              <div className="form">
+                <form action="">
+                  <input type="text" className='rounded-l-2xl w-70 px-5 py-2 bg-white' placeholder='Enter your email' />
+                  <button className="bg-blue-500 me-3 rounded-r-2xl
+                   hover:bg-sky-700 hover:cursor-pointer transform transition duration-300 ease-in-out 
+                   hover:scale-105 inline-block text-white px-4 py-2">Subcribe</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
