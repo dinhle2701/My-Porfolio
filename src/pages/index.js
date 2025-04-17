@@ -1,9 +1,11 @@
+import Head from 'next/head'
 import Navbar from "@/components/Nabar/Navbar";
 import About from "@/components/Overview/About";
 import Experience from "@/components/Experience/Experience";
 import Skill from "@/components/Skills/Skill";
 import Contact from "@/components/Contact/Contact";
 import { useEffect } from "react";
+import Role from "@/components/Role/Role";
 
 export default function Home() {
   useEffect(() => {
@@ -25,8 +27,14 @@ export default function Home() {
 
   return (
     <div className="pt-18 overflow-x-hidden relative">
+      <Head>
+        <title>My Portfolio</title>
+        <link rel="icon" type="image/png" href="https://icons.iconarchive.com/icons/iconsmind/outline/512/Clouds-icon.png" />
+        <link rel="icon" href="/server.ico" />
+      </Head>
       <Navbar />
       <About />
+      <Role />
       <Skill />
       <Experience />
       <Contact />

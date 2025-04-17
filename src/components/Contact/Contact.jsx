@@ -8,43 +8,59 @@ const Contact = () => {
     <div id='contact' className='scroll-mt-18 reveal'>
       <ScrollReveal />
       <Container>
-        <h1 className='text-center py-10 text-4xl text-amber-950'>CONTACTS</h1>
+        <h1 className='text-center py-10 text-4xl font-bold text-amber-950'>CONTACTS</h1>
         <div className="subscribe">
           {/* contact */}
           <div className='flex justify-center items-center'>
-            <table className='table-auto mx-auto text-sm/8'>
+            <table className='table-auto mx-auto text-sm/8 w-150'>
               <tbody>
+              <tr>
+                  <td>
+                    <Image className='me-3 inline-block' src={"https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png"}
+                      alt='linkedin' width={20} height={20}
+                    />
+                  </td>
+                  <td>
+                    <p className="inline-block min-w-[200px] text-center hover:left-0 hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-100">
+                      <a href="https://www.linkedin.com/in/dinh-le-60454427a/"  target="_blank" rel="noopener noreferrer">
+                        https://www.linkedin.com/in/dinh-le-60454427a/
+                      </a>
+                    </p>
+                  </td>
+                </tr>
                 <tr>
                   <td className=''>
                     <Image className='me-3' src={"https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png"}
                       alt='gmail' width={20} height={20}
                     />
                   </td>
-                  <td>dinhlt2701@gmail.com</td>
+                  <td>
+                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
+                      <a href="dinhlt2701@gmail.com">dinhlt2701@gmail.com</a>
+                    </p></td>
                 </tr>
                 <tr>
                   <td className=''>
-                    <Image className='me-3' src={"https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png"}
+                    <Image className='me-2' src={"https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png"}
                       alt='phone' width={20} height={20}
                     />
                   </td>
-                  <td>+0941982794</td>
-                </tr>
-                <tr>
                   <td>
-                    <Image className='me-3' src={"https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png"}
-                      alt='linkedin' width={20} height={20}
-                    />
+                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>0941982794</p>
                   </td>
-                  <td>https://www.linkedin.com/in/dinh-le-60454427a/</td>
                 </tr>
+                
                 <tr>
                   <td className=''>
                     <Image className='me-3' src={"https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png"}
                       alt='Github' width={20} height={20}
                     />
                   </td>
-                  <td>https://www.facebook.com/messages/t/100039244096491</td>
+                  <td>
+                    <p className='inline-block max-w-[200px] text-center hover:left-0 hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
+                      <a href="https://www.facebook.com/messages/t/100039244096491">https://www.facebook.com/messages/t/100039244096491</a>
+                    </p>
+                  </td>
                 </tr>
                 <tr>
                   <td className=''>
@@ -52,11 +68,11 @@ const Contact = () => {
                       alt='Github' width={20} height={20}
                     />
                   </td>
-                  <td>https://github.com/dinhle2701</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
+                  <td>
+                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
+                      <a href="https://github.com/dinhle2701">https://github.com/dinhle2701</a>
+                    </p>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -89,8 +105,8 @@ const Contact = () => {
         <div className="footer border-t-1 py-3">
           <p className='text-center'>@ Copy right 2025 | All Rights Reserved |</p>
         </div>
-      </Container>
-    </div>
+      </Container >
+    </div >
   )
 }
 

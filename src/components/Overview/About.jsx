@@ -5,11 +5,11 @@ import ScrollReveal from '../Custom/ScrollReveal'
 
 const About = () => {
   return (
-    <div id='about' className='scroll-mt-18 h-screen reveal'>
+    <div id='about' className='scroll-mt-18 h-auto reveal'>
       <ScrollReveal />
       <Container>
-        <div className="text-center py-17">
-        <h1 className='text-center py-10 text-4xl text-amber-950'>ABOUT ME</h1>
+        <div className="text-center py-14">
+          <h1 className='text-center py-10 text-4xl text-amber-950 font-bold'>ABOUT ME</h1>
           <div className="flex justify-between items-center">
             <div >
               <h1 className='text-sky-900 font-bold text-2xl'>Cloud Developer (AWS Platform)</h1>
