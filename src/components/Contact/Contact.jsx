@@ -7,76 +7,51 @@ const Contact = () => {
   return (
     <div id='contact' className='scroll-mt-18 reveal'>
       <ScrollReveal />
+      <h1 className='text-center py-10 text-4xl font-bold text-amber-950'>CONTACTS</h1>
+
       <Container>
-        <h1 className='text-center py-10 text-4xl font-bold text-amber-950'>CONTACTS</h1>
+        <div className='flex justify-center text-center bg-white py-9 rounded-3xl'>
+          <div className="contact-group  overflow-hidden">
+            <div className='flex justify-start align-center mb-4'>
+              <Image className='me-5' src={"https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png"}
+                alt='phone' width={20} height={20} />
+              <p className='inline-block min-w-[80px] text-center hover:text-black  transform transition duration-300 ease-in-out hover:scale-105'>0941982794</p>
+            </div>
+            <div className='flex justify-start align-center mb-4'>
+              <Image className='me-5' src={"https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png"}
+                alt='gmail' width={20} height={20} />
+              <p className='inline-block max-w-[200px] text-center hover:text-black  transform transition duration-300 ease-in-out hover:scale-105'>
+                <a href="dinhlt2701@gmail.com">dinhlt2701@gmail.com</a>
+              </p>
+            </div>
+            <div className='flex justify-start align-center mb-4'>
+              <Image className='me-5' src={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/220px-GitHub_Invertocat_Logo.svg.png"}
+                alt='Github' width={20} height={20} />
+              <p className='inline-block min-w-[200px] text-center hover:text-black  transform transition duration-300 ease-in-out hover:scale-105'>
+                <a href="https://github.com/dinhle2701">https://github.com/dinhle2701</a>
+              </p>
+            </div>
+            <div className='flex justify-start align-center mb-4'>
+              <Image className='me-5' src={"https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png"}
+                alt='linkedin' width={20} height={20} />
+              <p className="inline-block min-w-[400px] text-left hover:text-black  transform transition duration-300 ease-in-out hover:scale-105">
+                <a href="https://www.linkedin.com/in/dinh-le-60454427a" target="_blank" rel="noopener noreferrer">
+                  https://www.linkedin.com/in/dinh-le-60454427a
+                </a>
+              </p>
+            </div>
+            <div className='flex justify-start align-center'>
+              <Image className='me-5' src={"https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png"}
+                alt='Github' width={20} height={20} />
+              <p className='inline-block max-w-[250px] text-center hover:left-0 hover:text-black  transform transition duration-300 ease-in-out hover:scale-105'>
+                <a href="https://www.facebook.com/messages/t/100039244096491" rel="noopener noreferrer">https://www.facebook.com/messages/t/100039244096491</a>
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="subscribe">
           {/* contact */}
-          <div className='flex justify-center items-center'>
-            <table className='table-auto mx-auto text-sm/8 w-150'>
-              <tbody>
-              <tr>
-                  <td>
-                    <Image className='me-3 inline-block' src={"https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png"}
-                      alt='linkedin' width={20} height={20}
-                    />
-                  </td>
-                  <td>
-                    <p className="inline-block min-w-[200px] text-center hover:left-0 hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-100">
-                      <a href="https://www.linkedin.com/in/dinh-le-60454427a/"  target="_blank" rel="noopener noreferrer">
-                        https://www.linkedin.com/in/dinh-le-60454427a/
-                      </a>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td className=''>
-                    <Image className='me-3' src={"https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png"}
-                      alt='gmail' width={20} height={20}
-                    />
-                  </td>
-                  <td>
-                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
-                      <a href="dinhlt2701@gmail.com">dinhlt2701@gmail.com</a>
-                    </p></td>
-                </tr>
-                <tr>
-                  <td className=''>
-                    <Image className='me-2' src={"https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png"}
-                      alt='phone' width={20} height={20}
-                    />
-                  </td>
-                  <td>
-                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>0941982794</p>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <td className=''>
-                    <Image className='me-3' src={"https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png"}
-                      alt='Github' width={20} height={20}
-                    />
-                  </td>
-                  <td>
-                    <p className='inline-block max-w-[200px] text-center hover:left-0 hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
-                      <a href="https://www.facebook.com/messages/t/100039244096491">https://www.facebook.com/messages/t/100039244096491</a>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td className=''>
-                    <Image className='me-3' src={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/220px-GitHub_Invertocat_Logo.svg.png"}
-                      alt='Github' width={20} height={20}
-                    />
-                  </td>
-                  <td>
-                    <p className='inline-block min-w-[90px] text-center hover:text-black hover:font-bold transform transition duration-300 ease-in-out hover:scale-105'>
-                      <a href="https://github.com/dinhle2701">https://github.com/dinhle2701</a>
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+
 
           {/* subscribe */}
           <div className=' flex justify-between items-center py-35'>

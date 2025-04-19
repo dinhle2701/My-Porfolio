@@ -7,7 +7,7 @@ const Experience = () => {
     return (
         <div id='experience' className='h-screen scroll-mt-18 reveal'>
             <ScrollReveal />
-
+            <h1 className='text-center py-10 text-4xl font-bold text-amber-950'>EXPERIENCE</h1>
         </div>
     )
 }

@@ -33,6 +33,7 @@ const About = () => {
               </div>
             </div>
             <Image
+            className='w-16 sm:w-48 md:w-64 lg:w-80'
               src="https://img.freepik.com/premium-photo/web-developer-cloud-architect-developers-illustration_1297153-30092.jpg"
               alt="Developer Avatar"
               width={300}

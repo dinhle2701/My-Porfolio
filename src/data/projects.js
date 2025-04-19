@@ -9,7 +9,7 @@ const projects = [
     {
         id: 5,
         title: "Porfolio",
-        date: "10.04.2025 - 20.04.2025",
+        date: "15.04.2025 - 20.04.2025",
         tech: "NextJS + TailwindCSS",
         image: "/My-Porfolio/image.png",
     },
@@ -31,7 +31,7 @@ const projects = [
         id: 2,
         title: "Building Management",
         date: "20.12.2024 - 17.10.2024",
-        tech: "React + Bootstrap 5, MySQL, AWS EC2, AWS S3, AWS IAM, Terraform",
+        tech: "React + Bootstrap 5, MySQL, AWS EC2, AWS S3, AWS IAM, Terraform, Prometheus, Grafana",
         image: "/My-Porfolio/image4.png",
     },
     {

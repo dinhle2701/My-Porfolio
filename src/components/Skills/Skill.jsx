@@ -230,7 +230,7 @@ const Skill = () => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 justify-items-center pb-9">
                         {projects.map((item, index) => (
-                            <div key={index} className="bg-white rounded-3xl text-center w-[350px] shadow-md flex flex-col">
+                            <div key={index} className="bg-white rounded-3xl text-center w-[350px] shadow-md flex flex-col mb-2">
                                 <div className="relative h-[150px]">
                                     <Image
                                         src={item.image}
