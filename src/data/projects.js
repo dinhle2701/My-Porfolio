@@ -1,5 +1,12 @@
 const projects = [
     {
+        id: 7,
+        title: "Online Photo Collage Tool",
+        date: "02.05.2025 - 05.05.2025",
+        tech: "ReactJS + TailwindCSS, Flask (Python), AWS S3, Docker, Pillow, Celery + Redis",
+        image: "",
+    },
+    {
         id: 6,
         title: "AWS Badge Project",
         date: "15.04.2025 - Now",
