@@ -39,7 +39,6 @@ export default function Home() {
       <Skill />
       <Experience />
       <Contact />
-
     </div>
   );
 }

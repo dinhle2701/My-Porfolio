@@ -7,43 +7,50 @@ import { FaStackOverflow } from "react-icons/fa";
 
 const Role = () => {
     return (
-        <div id='role' className='role text-center h-screen scroll-mt-18 reveal'>
+        <div id='role' className='role text-center scroll-mt-18 reveal relative'>
             <Container>
-                <h1 className='text-blue-600 text-sm'><b>WORKING POSITION</b></h1>
-                <p className='text-4xl my-8 text-amber-950 font-bold'>ROLE I CAN TAKE ON</p>
-                <div className="flex items-center justify-center">
-                    <div className='mx-6'></div>
-                    <div className='group w-120'>
-                        <div className="cloud relative bg-gray-200 rounded-2xl px-15 text-white py-2 me-4 hover:bg-blue-900 hover:cursor-pointer transform transition duration-300 ease-in-out hover:scale-105 inline-block">
-                            <div className="rounded-4xl  p-9 bg-gray-300 my-14 w-10 h-10 text-center  mx-auto">
-                                <FaStackOverflow className='text-8xl text-center top-7 right-25 absolute' />
+                <div className="text-center">
+                    <h1 className='text-blue-600 text-sm font-bold'>WORKING POSITION</h1>
+                    <p className='text-4xl my-8 text-amber-950 font-bold'>ROLE I CAN TAKE ON</p>
+                </div>
 
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+                    {/* Card 1 */}
+                    <div className='w-full max-w-sm h-full'>
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                            <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
+                                <FaStackOverflow className='text-5xl text-blue-800' />
                             </div>
-                            <p className='text-2xl font-bold text-black group-hover:text-white'>Full Stack Developer</p>
-                            <p className='text-gray-700 my-7 group-hover:text-white'>Responsible for develop webapp from basic steps like choose database for use, project business analysis, build ui/ux, test, deploy and operations.</p>
+                            <p className='text-2xl font-bold text-black text-center group-hover:text-white'>Full Stack Developer</p>
+                            <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
+                                Responsible for developing web apps from database design, UI/UX, testing, to deployment and operations.
+                            </p>
                         </div>
                     </div>
 
-                    <div className='mx-2'></div>
-                    <div className='group w-120'>
-                        <div className="cloud relative bg-gray-200 rounded-2xl px-15 text-white py-2 me-4 hover:bg-blue-900 hover:cursor-pointer transform transition duration-300 ease-in-out hover:scale-105 inline-block">
-                            <div className="rounded-4xl  p-9 bg-gray-300 my-14 w-10 h-10 text-center mx-auto">
-                                <WiCloudyWindy className='text-9xl text-center top-3 right-20 absolute' />
+                    {/* Card 2 */}
+                    <div className='w-full max-w-sm h-full'>
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                            <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
+                                <WiCloudyWindy className='text-6xl text-blue-800' />
                             </div>
-                            <p className='text-2xl font-bold text-black m-0 group-hover:text-white'>Cloud Developer</p>
-                            <p className='text-gray-700 my-7 group-hover:text-white'>Develop application with two types main development are on-premises and cloud platform. A person who has knowledge for cloud platform</p>
+                            <p className='text-2xl font-bold text-black text-center group-hover:text-white'>Cloud Developer</p>
+                            <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
+                                Develop applications both on-premises and cloud-based, with good knowledge of cloud platforms.
+                            </p>
                         </div>
                     </div>
 
-                    <div className='mx-2'></div>
-                    <div className='group w-120'>
-                        <div className="cloud relative bg-gray-200 rounded-2xl px-15 text-white py-2 me-4 hover:bg-blue-900 hover:cursor-pointer transform transition duration-300 ease-in-out hover:scale-105 inline-block">
-                            <div className="rounded-4xl  p-9 bg-gray-300 my-14 w-10 h-10 text-center  mx-auto">
-                                <TbAutomation className='text-8xl text-center top-9 right-24 absolute' />
-
+                    {/* Card 3 */}
+                    <div className='w-full max-w-sm h-full'>
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                            <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
+                                <TbAutomation className='text-5xl text-blue-800' />
                             </div>
-                            <p className='text-2xl font-bold text-black group-hover:text-white'>DevOps Developer</p>
-                            <p className='text-gray-700 my-7 group-hover:text-white'>Responsible for application deployment, monitoring, operation and maintenance of application upgrades and ensuring application security</p>
+                            <p className='text-2xl font-bold text-black text-center group-hover:text-white'>DevOps Developer</p>
+                            <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
+                                Handle deployment, monitoring, maintenance, upgrades, and ensure application security.
+                            </p>
                         </div>
                     </div>
                 </div>

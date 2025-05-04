@@ -6,7 +6,7 @@ import projects from '@/data/projects'
 
 const Skill = () => {
     return (
-        <div id='skill' className='h-fit scroll-mt-18 reveal '>
+        <div id='skill' className='skill h-auto scroll-mt-18 reveal relative'>
             <ScrollReveal />
 
             <Container>
