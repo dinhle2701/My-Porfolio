@@ -5,13 +5,13 @@ import ScrollReveal from '../Custom/ScrollReveal'
 
 const Contact = () => {
   return (
-    <div id='contact' className='contact scroll-mt-18 reveal'>
+    <div id='contact' className='contact scroll-mt-18 reveal text-white'>
       <ScrollReveal />
-      <h1 className='text-center py-10 text-4xl font-bold text-amber-950'>CONTACTS</h1>
+      <h1 className='text-center py-10 text-4xl font-bold'>CONTACTS</h1>
 
       <Container>
         {/* Contact Section */}
-        <div className='flex justify-center text-center bg-white py-9 rounded-3xl px-4'>
+        <div className='flex justify-center text-center bg-gray-400 py-9 rounded-3xl px-4'>
           <div className="contact-group w-full max-w-2xl">
             {[
               {
@@ -46,7 +46,7 @@ const Contact = () => {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className='text-left text-blue-700 hover:text-black transition-transform duration-300 transform hover:scale-105 break-words'
+                    className='text-left  hover:text-black transition-transform duration-300 transform hover:scale-105 break-words'
                   >
                     {item.text}
                   </a>
@@ -62,26 +62,26 @@ const Contact = () => {
         <div className="subscribe  px-4 py-16 mt-10 rounded-xl">
           <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
             <div className="lg:w-1/2 text-center lg:text-left">
-              <p className="text-blue-600 mb-4 text-sm font-semibold">SUBSCRIBE</p>
-              <h1 className='text-3xl lg:text-5xl font-bold text-indigo-950 leading-snug'>
+              <p className="mb-4 text-sm font-semibold">SUBSCRIBE</p>
+              <h1 className='text-3xl lg:text-5xl font-bold leading-snug'>
                 Subscribe Me To Get More Latest Update Information From Me
               </h1>
             </div>
 
             <div className="lg:w-1/2 text-center lg:text-left">
-              <p className='mb-6 text-gray-700'>
+              <p className='mb-6'>
                 Stay connected! Subscribe to receive updates, news, and future projects. I promise to send only meaningful and helpful content!
               </p>
               <form className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
                 <input
                   type="email"
                   required
-                  className='rounded-2xl px-5 py-2 w-full sm:w-72 border border-gray-300'
+                  className='rounded-2xl px-5 py-2 w-full sm:w-72 border border-white'
                   placeholder='Enter your email'
                 />
                 <button
                   type="submit"
-                  className="bg-blue-400 text-white py-2 px-4 rounded-3xl hover:bg-blue-600 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105"
+                  className="bg-blue-500 text-white py-2 px-4 rounded-3xl hover:bg-blue-800 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105"
                 >
                   Subscribe
                 </button>
@@ -92,7 +92,7 @@ const Contact = () => {
 
         {/* Footer */}
         <div className="footer border-t-1 py-3">
-          <p className='text-center'>@ Copy right 2025 | All Rights Reserved |</p>
+          <p className='text-center'>© Design by Dinh 2025 | All Rights Reserved</p>
         </div>
       </Container>
 

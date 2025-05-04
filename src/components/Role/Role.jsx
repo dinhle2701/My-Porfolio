@@ -7,19 +7,19 @@ import { FaStackOverflow } from "react-icons/fa";
 
 const Role = () => {
     return (
-        <div id='role' className='role text-center scroll-mt-18 reveal relative'>
+        <div id='role' className='role text-center text-white scroll-mt-18 reveal relative mb-18'>
             <Container>
                 <div className="text-center">
-                    <h1 className='text-blue-600 text-sm font-bold'>WORKING POSITION</h1>
-                    <p className='text-4xl my-8 text-amber-950 font-bold'>ROLE I CAN TAKE ON</p>
+                    <h1 className=' text-sm font-bold'>WORKING POSITION</h1>
+                    <p className='text-4xl my-8  font-bold'>ROLE I CAN TAKE ON</p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
                     {/* Card 1 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
-                                <FaStackOverflow className='text-5xl text-blue-800' />
+                                <FaStackOverflow className='text-5xl text-blue-500' />
                             </div>
                             <p className='text-2xl font-bold text-black text-center group-hover:text-white'>Full Stack Developer</p>
                             <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
@@ -30,9 +30,9 @@ const Role = () => {
 
                     {/* Card 2 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
-                                <WiCloudyWindy className='text-6xl text-blue-800' />
+                                <WiCloudyWindy className='text-6xl text-blue-500' />
                             </div>
                             <p className='text-2xl font-bold text-black text-center group-hover:text-white'>Cloud Developer</p>
                             <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
@@ -43,9 +43,9 @@ const Role = () => {
 
                     {/* Card 3 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-900 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
-                                <TbAutomation className='text-5xl text-blue-800' />
+                                <TbAutomation className='text-5xl text-blue-500' />
                             </div>
                             <p className='text-2xl font-bold text-black text-center group-hover:text-white'>DevOps Developer</p>
                             <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>

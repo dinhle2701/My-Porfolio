@@ -6,14 +6,14 @@ import projects from '@/data/projects'
 
 const Skill = () => {
     return (
-        <div id='skill' className='skill h-auto scroll-mt-18 reveal relative'>
+        <div id='skill' className='skill h-auto scroll-mt-18 reveal relative mb-18'>
             <ScrollReveal />
 
             <Container>
-                <h1 className='text-center py-10 text-4xl text-amber-950 font-bold'>SKILLS</h1>
-                <div className='bg-gray-300 py-6 px-10 rounded-3xl'>
-                    <h3 className='text-center text-white pb-6'>TECHNICAL SKILL</h3>
-                    <div className="flex flex-wrap gap-2">
+                <h1 className='text-center py-10 text-4xl text-white font-bold'>SKILLS</h1>
+                <div className='bg-gray-400 shadow-xl py-6 px-10 rounded-3xl'>
+                    <h3 className='text-center text-black pb-6'>TECHNICAL SKILL</h3>
+                    <div className="flex flex-wrap gap-2 text-black">
                         <button className="group bg-white rounded-4xl py-2 px-3 mb-2 me-3 flex items-center hover:cursor-pointer">
                             <Image
                                 className="me-2 transition-transform duration-700 ease-in-out group-hover:rotate-[360deg]"
@@ -84,6 +84,22 @@ const Skill = () => {
                                 width={20}
                                 height={20} />
                             Vite
+                        </button>
+                        <button className='group bg-white rounded-4xl py-2 px-3 mb-2 me-3 flex items-center hover:cursor-pointer'>
+                            <Image className='me-2 transition-transform duration-700 ease-in-out group-hover:rotate-[360deg]'
+                                src={"https://149860134.v2.pressablecdn.com/wp-content/uploads/pythoned.png"}
+                                alt="Python"
+                                width={20}
+                                height={20} />
+                            Python
+                        </button>
+                        <button className='group bg-white rounded-4xl py-2 px-3 mb-2 me-3 flex items-center hover:cursor-pointer'>
+                            <Image className='me-2 transition-transform duration-700 ease-in-out group-hover:rotate-[360deg]'
+                                src={"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"}
+                                alt="Java"
+                                width={20}
+                                height={20} />
+                            Java
                         </button>
                         <button className='group bg-white rounded-4xl py-2 px-3 mb-2 me-3 flex items-center hover:cursor-pointer'>
                             <Image className='me-2 transition-transform duration-700 ease-in-out group-hover:rotate-[360deg]'
@@ -224,8 +240,8 @@ const Skill = () => {
 
                     </div>
                 </div>
-                <div className="my-3"></div>
-                <div className='bg-gray-300 py-6 px-10 rounded-3xl'>
+                <div className="my-8"></div>
+                <div className=' py-6 px-10 rounded-3xl'>
                     <h3 className='text-center text-white pb-6 text-2xl font-bold'>PROJECTS</h3>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 justify-items-center pb-9">

@@ -29,7 +29,9 @@ const nextConfig = {
         'images.sftcdn.net',
         'raw.githubusercontent.com',
         'images.icon-icons.com',
-        'uix.vn'
+        'uix.vn',
+        "149860134.v2.pressablecdn.com",
+        "cdn4.iconfinder.com"
       ]
   }
 };
