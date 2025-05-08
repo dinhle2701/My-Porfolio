@@ -33,12 +33,12 @@ export default function Home() {
         <link rel="icon" href="/server.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      {/* <Navbar />
+      <Navbar />
       <About />
       <Role />
       <Skill />
-      <Contact /> */}
       <Experience />
+      <Contact />
     </div>
   );
 }

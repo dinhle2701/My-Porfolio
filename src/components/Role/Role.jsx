@@ -17,7 +17,7 @@ const Role = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
                     {/* Card 1 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-white rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
                                 <FaStackOverflow className='text-5xl text-blue-500' />
                             </div>
@@ -30,7 +30,7 @@ const Role = () => {
 
                     {/* Card 2 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-white rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
                                 <WiCloudyWindy className='text-6xl text-blue-500' />
                             </div>
@@ -43,7 +43,7 @@ const Role = () => {
 
                     {/* Card 3 */}
                     <div className='w-full max-w-sm h-full'>
-                        <div className="flex flex-col h-full bg-gray-200 rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
+                        <div className="flex flex-col h-full bg-white rounded-2xl p-6 hover:bg-blue-500 hover:cursor-pointer transition duration-300 ease-in-out hover:scale-105 group">
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
                                 <TbAutomation className='text-5xl text-blue-500' />
                             </div>

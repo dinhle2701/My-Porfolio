@@ -33,7 +33,7 @@ const projects = [
         github: "https://github.com/dinhle2701/My-Porfolio",
         date: "15.04.2025 - 20.05.2025",
         tech: "NextJS + TailwindCSS, Github Actions",
-        image: "/My-Porfolio/image.png",
+        image: "/My-Porfolio/image1.png",
     },
     {
         id: 4,

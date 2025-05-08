@@ -11,7 +11,7 @@ const Contact = () => {
 
       <Container>
         {/* Contact Section */}
-        <div className='flex justify-center text-center bg-gray-300 py-9 rounded-3xl px-4'>
+        <div className='flex justify-center text-center mx-39 bg-white text-black py-9 rounded-3xl px-4'>
           <div className="contact-group w-full max-w-2xl">
             {[
               {
@@ -46,7 +46,7 @@ const Contact = () => {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className='text-left  hover:text-black transition-transform duration-300 transform hover:scale-105 break-words'
+                    className='text-left  hover:text-blue-500 transition-transform duration-300 transform hover:scale-105 break-words'
                   >
                     {item.text}
                   </a>

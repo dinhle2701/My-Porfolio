@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import ScrollReveal from '../Custom/ScrollReveal'
 import Badge from './Badge/Badge';
+import EducationExp from './Education/EducationExp';
+import WorkExp from './Work/WorkExp';
 
 const Experience = () => {
     const [stateTab, setStateTab] = useState('EXPERIENCE');
     const renderContent = () => {
         switch (stateTab) {
             case 'EXPERIENCE':
-                return <p className="mt-4 text-gray-600">This is the EXPERIENCE section.</p>;
+                return <WorkExp />
             case 'EDUCATION':
-                return <p className="mt-4 text-gray-600">This is the EDUCATION section.</p>;
+                return <EducationExp />
             case 'BADGE':
                 return <Badge />
             default:
@@ -34,7 +36,7 @@ const Experience = () => {
 
 
             {/* Tab Content */}
-            <div className='experience mx-96 bg-white rounded-3xl h-[60vh]' >
+            <div className='experience mx-82 bg-white rounded-3xl text-black' >
                 <div className=' px-12 py-6'>
                     {renderContent()}
                 </div>
