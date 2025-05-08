@@ -26,7 +26,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="pt-18 overflow-x-hidden relative">
+    <div className="pt-18 overflow-x-hidden">
       <Head>
         <title>My Portfolio</title>
         <link rel="icon" type="image/png" href="https://icons.iconarchive.com/icons/iconsmind/outline/512/Clouds-icon.png" />

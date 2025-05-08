@@ -11,7 +11,7 @@ const Contact = () => {
 
       <Container>
         {/* Contact Section */}
-        <div className='flex justify-center text-center bg-gray-400 py-9 rounded-3xl px-4'>
+        <div className='flex justify-center text-center bg-gray-300 py-9 rounded-3xl px-4'>
           <div className="contact-group w-full max-w-2xl">
             {[
               {

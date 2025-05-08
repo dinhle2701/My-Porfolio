@@ -8,6 +8,10 @@ const Experience = () => {
         <div id='experience' className='h-screen scroll-mt-18 reveal text-white'>
             <ScrollReveal />
             <h1 className='text-center py-10 text-4xl font-bold'>EXPERIENCE</h1>
+
+            <div className='mx-56 bg-white' >
+                    <h1 className='text-black'>hi</h1>
+            </div>
         </div>
     )
 }
