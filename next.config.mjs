@@ -5,7 +5,9 @@ const nextConfig = {
   basePath: '/My-Porfolio',
   images: {
     domains:
-      ['img.freepik.com',
+      [
+        'images.credly.com',
+        'img.freepik.com',
         'images.thetombomb.com',
         'externlabs.com',
         'kinsta.com',
