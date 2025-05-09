@@ -5,7 +5,7 @@ const projects = [
         title: "Online Photo Collage Tool",
         description: "Create simple online photo collages with support for downloading, customizable orientation (vertical/horizontal), borders, and background color.",
         responsible: "",
-        deployment: "http://localhost:3000 http://localhost:5000",
+        deployment: "https://online-photo-collage-tool-alpha.vercel.app",
         github: "https://github.com/dinhle2701/Online-Photo-Collage-Tool",
         date: "02.05.2025 - 08.05.2025",
         tech: "ReactJS + TailwindCSS, Flask (Python), AWS S3, Docker, Pillow, Celery + Redis",
