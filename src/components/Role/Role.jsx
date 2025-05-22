@@ -21,7 +21,7 @@ const Role = () => {
                             <div className="rounded-full bg-gray-300 w-20 h-20 flex items-center justify-center mx-auto my-6">
                                 <FaStackOverflow className='text-5xl text-blue-500' />
                             </div>
-                            <p className='text-2xl font-bold text-black text-center group-hover:text-white'>Full Stack Developer</p>
+                            <p className='text-2xl font-bold text-black text-center group-hover:text-white'>FullStack Developer</p>
                             <p className='text-gray-700 text-center mt-4 mb-6 group-hover:text-white flex-grow'>
                                 Responsible for developing web apps from database design, UI/UX, testing, to deployment and operations.
                             </p>

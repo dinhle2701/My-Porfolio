@@ -29,6 +29,11 @@ const badges = [
         "name": "AWS Knowledge: Cloud Essentials",
         "image": "https://images.credly.com/size/680x680/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png"
     },
+    {
+        "id": 7,
+        "name": "AWS Knowledge: Architecting",
+        "image": "https://images.credly.com/size/680x680/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png"
+    },
 
 ]
 

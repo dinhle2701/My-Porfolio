@@ -16,10 +16,16 @@ const About = () => {
             {/* Left Content */}
             <div className="text-center lg:w-1/2">
               <h2 className='font-bold text-2xl mb-4'>Cloud Developer (AWS Platform)</h2>
-              <p className='text-base leading-relaxed mb-6'>
-                I'm a Full Stack Engineer with at least 6 months of experience in Web Development. I have built web applications using <b>ReactJS</b> and <b>Spring Boot</b>, and I have basic knowledge of cloud operations on the <b>Amazon Web Service (AWS)</b> platform.
+              <p className='text-base text-blue-300 leading-relaxed mb-6'>
+                I’m a FullStack Developer with 6+ months of experience building web applications using ReactJS and
+                Spring Boot. Alongside development, I have a growing interest in cloud operations and DevOps practices. I
+                have basic experience with AWS and am currently exploring containerization (Docker), CI/CD pipelines,
+                and infrastructure automation tools (e.g.,Terraform). I enjoy learning and problem-solving, and I’m actively
+                pursuing hands-on experience in system deployment andcloud infrastructure. Over the next year, I aim to
+                deepen my DevOps knowledge while continuing to grow as a FullStack Developer.
+
                 <br /><br />
-                Currently, I am working as a Cloud Developer, and within the next 3 years, I aim to grow into a <b>Cloud Engineer</b> specializing in the AWS ecosystem.
+                Currently, I am working as a FullStack Developer, and within the next 3 years, I aim to grow into a <b>FullStack Engineer</b> specializing in the AWS ecosystem.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <a href="#skill">

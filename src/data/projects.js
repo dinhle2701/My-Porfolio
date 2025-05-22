@@ -1,5 +1,17 @@
 const projects = [
     {
+        id: 8,
+        role: "Cloud Developer",
+        title: "Chatbot System",
+        description: "An interactive chatbot that can chat with documents. The chatbot will answer user queries based on a provided context document (PDF)",
+        responsible: "End-to-end development project",
+        deployment: "https://d1xx59mwiwrjgb.cloudfront.net/",
+        github: "https://github.com/dinhle2701/Interactive-Chatbot-System",
+        date: "12.05.2025 - 19.05.2025",
+        tech: "ReactJS + TailwindCSS, Amazon CloudFront, S3, Cognito, AppSync, DynamoDB, Amazon Bedrock, AWS Lambda",
+        image: "/My-Porfolio/image8.png",
+    },
+    {
         id: 7,
         role: "Fullstack Developer",
         title: "Online Photo Collage Tool",
