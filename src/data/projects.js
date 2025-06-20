@@ -1,5 +1,17 @@
 const projects = [
     {
+        id: 9,
+        role: "Fullstack Developer",
+        title: "Book Store",
+        description: "An E-Commerce Website (book store) with full function from frontend to backend & deployment",
+        responsible: "End-to-end development project",
+        deployment: "https://book-store-app-mauve.vercel.app/",
+        github: "https://github.com/dinhle2701/Book-Store-App",
+        date: "22.05.2025 - 21.06.2025",
+        tech: "ReactJS + TailwindCSS, NodeJS + ExpressJS, MongoDB",
+        image: "/My-Porfolio/image.png",
+    },
+    {
         id: 8,
         role: "Cloud Developer",
         title: "Chatbot System",

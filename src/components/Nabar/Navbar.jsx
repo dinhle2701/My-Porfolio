@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="relative">
       {/* Navbar */}
-      <div className="navbar py-4 shadow-xl fixed top-0 w-full z-50 text-white">
+      <div className="navbar py-4 shadow-xl fixed top-0 w-full z-50 text-white backdrop-blur">
         <div className="px-10">
           <div className="flex justify-between items-center w-full px-4">
             {/* Logo */}

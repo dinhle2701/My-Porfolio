@@ -11,52 +11,47 @@ const Contact = () => {
 
       <Container>
         {/* Contact Section */}
-        <div className='flex justify-center text-center mx-39 bg-white text-black py-9 rounded-3xl px-4'>
-          <div className="contact-group w-full max-w-2xl">
+        <div className="flex justify-center text-center mx-10 bg-white text-black py-9 rounded-3xl px-4">
+          <div className="contact-group w-full max-w-2xl flex justify-between items-center gap-6">
             {[
               {
                 icon: "https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png",
-                text: "0941982794",
+                link: "tel:0941982794", // bạn có thể bật lại nếu muốn
               },
               {
                 icon: "https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png",
-                text: "dinhlt2701@gmail.com",
                 link: "mailto:dinhlt2701@gmail.com",
               },
               {
                 icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/220px-GitHub_Invertocat_Logo.svg.png",
-                text: "https://github.com/dinhle2701",
                 link: "https://github.com/dinhle2701",
               },
               {
                 icon: "https://foxfio.com/wp-content/uploads/2024/01/LinkedIn_icon.svg.png",
-                text: "https://www.linkedin.com/in/dinh-le-60454427a",
                 link: "https://www.linkedin.com/in/dinh-le-60454427a",
               },
               {
                 icon: "https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yD/r/5D8s-GsHJlJ.png",
-                text: "https://www.facebook.com/messages/t/100039244096491",
                 link: "https://www.facebook.com/messages/t/100039244096491",
               },
             ].map((item, idx) => (
-              <div key={idx} className='flex items-center mb-4'>
-                <Image className='me-5' src={item.icon} alt='icon' width={20} height={20} />
-                {item.link ? (
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className='text-left  hover:text-blue-500 transition-transform duration-300 transform hover:scale-105 break-words'
-                  >
-                    {item.text}
-                  </a>
-                ) : (
-                  <p className='text-left break-words'>{item.text}</p>
-                )}
-              </div>
+              <a
+                key={idx}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:scale-110 hover:shadow-md transition-transform duration-300 rounded-full"
+              >
+                <img
+                  src={item.icon}
+                  alt="icon"
+                  className="w-10 h-10 object-contain rounded-full"
+                />
+              </a>
             ))}
           </div>
         </div>
+
 
         {/* Subscribe Section */}
         <div className="subscribe  px-4 py-16 mt-10 rounded-xl">
