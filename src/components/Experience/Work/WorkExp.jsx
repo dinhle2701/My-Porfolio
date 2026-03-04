@@ -9,12 +9,33 @@ const WorkExp = () => {
 
   const educationData = [
     {
-      id: 4,
-      title: "AWS First Cloud Journey",
-      date: "May 2025 - August 2025",
-      position: "Cloud Developer",
+      id: 7,
+      title: "Wiztech Corp.",
+      date: "February 2026 - Now",
+      position: "IT Support Technican",
+      description: "- Window, Network, Hardware, Microsoft365\n - Support with more 100 user from domestic and international.\n - Troubleshooting with microsoft issue, hardware problem"
+    },
+    {
+      id: 6,
+      title: "Cybersoft Academy",
+      date: "February 2026 - Now",
+      position: "Java Mentor",
       description: ""
     },
+    {
+      id: 5,
+      title: "MCI Academy Group",
+      date: "July 2025 - February 2026",
+      position: "Frontend Developer",
+      description: "- Tech stack: Next.JS, TypeScript, Ant Design\n - Built and deployed 5 enterprise-level applications in real business environments"
+    },
+    // {
+    //   id: 4,
+    //   title: "AWS First Cloud Journey",
+    //   date: "May 2025 - August 2025",
+    //   position: "Cloud Developer",
+    //   description: ""
+    // },
     {
       id: 3,
       title: "The Rolling Scope School (RSSchool)",
@@ -27,14 +48,14 @@ const WorkExp = () => {
       title: "Cybersoft Academy",
       date: "March 2023 - June 2023",
       position: "Fullstack Intern",
-      description: "- Participate in developing projects as a Fullstack\n - Test and deploy an application to a production environment\n"
+      description: "- Participate in developing projects as a Fullstack\n - Test and deploy an application to a production environment\n - Tech stack: ReactJS, NodeJS (ExpressJS), Bootstrap 5, Python (Django), MySQL"
     },
     {
       id: 1,
-      title: "Sharework Corporation",
-      date: "October 2024 - December 2024",
+      title: "ShareWork Corporation",
+      date: "October 2024 - May 2025",
       position: "Backend Java Intern",
-      description: "- Học Spring Boot\n- Làm việc với MySQL\n- Tạo REST API"
+      description: "- Tech stack: Java Spring Boot, MySQL.\n - Participated in the development of 1 internal application and 2 enterprise applications.\n - Worked in strict compliance with Agile/Scrum methodologies"
     },
   ]
 

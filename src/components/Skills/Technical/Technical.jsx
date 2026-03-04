@@ -6,7 +6,7 @@ const Technical = () => {
         <div className='technical'>
             <div className='bg-gray-200 shadow-xl py-6 px-10 rounded-3xl'>
                 <h3 className='text-center text-white pb-6'>TECHNICAL SKILL</h3>
-                <div className="flex flex-wrap gap-2 text-black">
+                <div className="flex flex-wrap gap-2 text-white">
                     <button className="group bg-white rounded-4xl py-2 px-3 mb-2 me-3 flex items-center hover:cursor-pointer">
                         <Image
                             className="me-2 transition-transform duration-700 ease-in-out group-hover:rotate-[360deg]"

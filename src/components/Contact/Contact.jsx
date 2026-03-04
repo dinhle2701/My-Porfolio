@@ -6,7 +6,7 @@ import ScrollReveal from '../Custom/ScrollReveal'
 const Contact = () => {
   return (
     <div id='contact' className='contact scroll-mt-18 reveal text-white'>
-      <ScrollReveal />
+      {/* <ScrollReveal /> */}
       <h1 className='text-center py-10 text-4xl font-bold'>CONTACTS</h1>
 
       <Container>

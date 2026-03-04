@@ -6,7 +6,7 @@ import ScrollReveal from '../Custom/ScrollReveal'
 const About = () => {
   return (
     <div id='about' className='about scroll-mt-18 h-auto reveal mb-18'>
-      <ScrollReveal />
+      {/* <ScrollReveal /> */}
       <Container>
         <div className="text-center text-white py-14">
           <h1 className='text-4xl font-bold mb-10'>ABOUT ME</h1>
@@ -16,12 +16,12 @@ const About = () => {
             {/* Left Content */}
             <div className="text-center lg:w-1/2">
               <h2 className='font-bold text-2xl mb-4'>FullStack Developer (AWS Platform)</h2>
-              <p className='text-base text-blue-300 leading-relaxed mb-6'>
+              <p className='text-base   leading-relaxed mb-6'>
                 I’m a FullStack Developer with 6+ months of experience building web applications using ReactJS and
                 Spring Boot. Alongside development, I have a growing interest in cloud operations and DevOps practices. I
                 have basic experience with AWS and am currently exploring containerization (Docker), CI/CD pipelines,
                 and infrastructure automation tools (e.g.,Terraform). I enjoy learning and problem-solving, and I’m actively
-                pursuing hands-on experience in system deployment andcloud infrastructure. Over the next year, I aim to
+                pursuing hands-on experience in system deployment and cloud infrastructure. Over the next year, I aim to
                 deepen my Java knowledge while continuing to grow as a FullStack Developer.
 
                 <br /><br />

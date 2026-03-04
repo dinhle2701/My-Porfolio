@@ -39,7 +39,7 @@ const Navbar = () => {
                   <a href={link.href}>{link.label}</a>
                 </span>
               ))}
-              <button className="bg-yellow-200 text-blue-900 px-4 py-2 rounded-3xl me-3
+              <button className="bg-yellow-200 text-white px-4 py-2 rounded-3xl me-3
             hover:bg-red-700 
             hover:text-white transform transition duration-300 ease-in-out 
             hover:scale-105 hover:cursor-pointer">

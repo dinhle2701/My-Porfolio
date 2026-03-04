@@ -5,17 +5,17 @@ import Technical from './Technical/Technical';
 import Project from './Project/Project';
 
 const Skill = () => {
-    
+
     return (
         <div id='skill' className='skill h-auto scroll-mt-18 reveal mb-18'>
-            <ScrollReveal />
+            {/* <ScrollReveal /> */}
 
             <Container>
                 <h1 className='text-center py-10 text-4xl text-white font-bold'>SKILLS</h1>
                 <Technical />
                 <div className="my-8"></div>
 
-                <Project/>
+                <Project />
 
             </Container>
 
